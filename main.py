@@ -28,6 +28,7 @@ for i in range(signal_count):
 
     plt.subplot(211)
     plt.plot(t, y, linewidth=0.5)
+    plt.title(cols[i+1])
 
     plt.subplot(212)
     plt.plot(f, np.abs(A), linewidth=0.5)
